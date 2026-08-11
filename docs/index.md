@@ -20,7 +20,7 @@ A free and modular platform for academic and school administration.
 
 ---
 
-* Organization: Familia Pequenino Capingala (FPC)
+* Organization: Família Pequenino Capingala
 
 * Author: Zacarias J. Capingala
 

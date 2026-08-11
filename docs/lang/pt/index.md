@@ -32,8 +32,8 @@ Isto cria um ciclo virtuoso: a instituição que adota o SAGE Education para ger
 
 ---
 
-* **Organização:** Familia Pequenino Capingala (FPC)   
+* **Organização:** Família PC   
 * **Criador:** Zacarias J. Capingala 
 * **Projecto:** SAGE Edu 
-* **Versão:** 1.4  
-* **Atualização:** Abril/2026
+* **Versão:** 1.7  
+* **Atualização:** July/2026

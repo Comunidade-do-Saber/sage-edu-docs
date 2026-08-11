@@ -35,7 +35,7 @@ O SAGE Edu segue:
 
 * As boas práticas do [Python](https://www.python.org/dev/peps/pep-0008/) (PEP 8)
 
-* O projeto é desenvolvido em Python, e o [código-fonte](https://github.com/comunidadedosaber) está disponível no GitHub:
+* O projeto é desenvolvido em Python, e o [código-fonte](https://github.com/zacariasjuliano/sage-edu) está disponível no GitHub:
 
 
 Para obter uma cópia do projeto:
@@ -44,10 +44,10 @@ Para obter uma cópia do projeto:
 git clone https://github.com/comunidadedosaber/akademy-party
 git clone https://github.com/comunidadedosaber/akademy-company
 git clone https://github.com/comunidadedosaber/akademy-classe
+git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
 git clone https://github.com/zacariasjuliano/akademy-matriculation
 git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
 git clone https://github.com/zacariasjuliano/akademy-dashboard
-git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
 ```
 
 

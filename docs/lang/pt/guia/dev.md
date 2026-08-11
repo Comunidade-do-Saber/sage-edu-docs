@@ -128,10 +128,10 @@ Após o ambiente Tryton estar configurado, instale os módulos oficiais do SAGE 
 git clone https://github.com/zacariasjuliano/akademy-party
 git clone https://github.com/zacariasjuliano/akademy-company
 git clone https://github.com/zacariasjuliano/akademy-classe
+git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
 git clone https://github.com/zacariasjuliano/akademy-matriculation
 git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
 git clone https://github.com/zacariasjuliano/akademy-dashboard
-git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
 ```
 
 💡 Nota: Após instalar novos módulos, é recomendado reiniciar o servidor Tryton e executar novamente o trytond-admin para sincronização das tabelas.

@@ -8,3 +8,6 @@ docs/lang/fr/modulos/sie/*
 
 docs/lang/pt/modulos/sge/*
 docs/lang/pt/modulos/sie/*
+
+node_modules/
+site/

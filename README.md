@@ -1,6 +1,6 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Module:** AMS & SMS   
+**Module:** AMS, SMS & EIS   
 **Version:** 1.4.x  
 **Author:** Zacarias Juliano Capingala  *(FPC)*     
 

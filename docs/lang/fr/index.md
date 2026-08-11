@@ -32,7 +32,7 @@ Cela crée un cycle vertueux : l'établissement qui adopte SAGE Education pour g
 
 ---
 
-* **Organisation :** Familia Pequenino Capingala (FPC)
+* **Organisation :** Família PC
 * **Auteur :** Zacarias J. Capingala
 * **Projet :** SAGE Edu
 * **Version :** 1.4

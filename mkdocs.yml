@@ -1,5 +1,5 @@
 site_name: SAGE Edu – Documentation
-site_url: https://<seu-usuario>.github.io/sage-edu-docs/
+site_url: https://docs.sage-edu.comunidadedosaber.ao
 use_directory_urls: true
 
 theme:

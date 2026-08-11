@@ -20,7 +20,7 @@ Uma plataforma livre e modular para administração académica e escolar.
 
 ---
 
-* Organization: Familia Pequenino Capingala (FPC)
+* Organization: Família PC
 
 * Author: Zacarias J. Capingala
 
