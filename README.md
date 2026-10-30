@@ -1,8 +1,8 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
 **Module:** AMS, SMS & EIS   
-**Version:** 1.4.x  
-**Author:** Zacarias Juliano Capingala  *(FPC)*     
+**Version:** 2.0.x  
+**Tryton:**: 8.0.x
 
 
 ---
@@ -21,7 +21,7 @@ We hope you find **SAGE Education** motivating and inspiring, and we look forwar
 
 
 We host a public demo server where you can try out SAGE Education with different access profiles:
-[sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
+[app.sage-edu.comunidadedosaber.ao](https://app.sage-edu.comunidadedosaber.ao)  
 
 
 | Profile    | User      |
@@ -57,41 +57,18 @@ SAGE Education centralizes **all aspects of school management**, including:
 ### ✨ Modules Overview
 
 #### 🏛️ Akademy Party – Base Party Management
-- Extend Tryton `Party` model for students, employees, teachers, and institutions
-- Standardized base for other modules
-- Data consistency and reusability
+- [https://github.com/comunidade-do-saber/akademy-party](https://github.com/comunidade-do-saber/akademy-party) 
 
 #### 🏢 Akademy Company – Institutional Management
-- Manage institutions, companies, and parties
-- Employee registration and roles
-- Student registration and supervisor relationships
-- Institutional reporting
+- [https://github.com/comunidade-do-saber/akademy-company](https://github.com/comunidade-do-saber/akademy-company) 
 
 #### 🏫 Akademy Class – Academic & Class Management
-- Academic levels, areas, courses, and classes
-- Class schedules, classrooms, and lessons
-- Teacher and student assignments
-- Attendance tracking for students and teachers
-- Study plans, disciplines, evaluation metrics
-- Academic reports (class, teacher, student, study plan)
+- [https://github.com/comunidade-do-saber/akademy-classe](https://github.com/comunidade-do-saber/akademy-classe) 
+- [https://github.com/comunidade-do-saber/akademy-classe-evaluation](https://github.com/comunidade-do-saber/akademy-classe-evaluation) 
 
 #### 📝 Akademy Matriculation – Enrollment & Applications
-- Candidate registration and application management
-- Evaluation of applications according to defined criteria
-- Student transfers (internal and external)
-- Association of students to courses and disciplines
-- Enrollment reports, transfer reports, equivalence reports
-
-#### ✅ Akademy Matriculation Confirmation – Enrollment Confirmation
-- Wizard-based confirmation of new matriculations
-- Modification of existing matriculations
-- Stepwise, auditable workflows for enrollment
-
-#### 📊 Akademy Dashboard – User Interface & Dashboards
-- Main menu creation for SAGE Education
-- Personalized dashboards for each user type
-- Display of metrics, notifications, and tasks
-- Integration with academic and administrative modules
+- [https://github.com/comunidade-do-saber/akademy-matriculation](https://github.com/comunidade-do-saber/akademy-matriculation) 
+- [https://github.com/comunidade-do-saber/akademy-matriculation_confirmation](https://github.com/comunidade-do-saber/akademy-matriculation_confirmation) 
 
 
 ---
@@ -109,8 +86,8 @@ SAGE Education centralizes **all aspects of school management**, including:
 ### 🌐 Homepage
   
 **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
-**Docs:** [docs.comunidadedosaber.ao](https://docs.comunidadedosaber.ao)  
+**App:** [app.sage-edu.comunidadedosaber.ao](https://app.sage-edu.comunidadedosaber.ao)  
+**Docs:** [docs.sage-edu.comunidadedosaber.ao](https://docs.sage-edu.comunidadedosaber.ao)  
 **Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
 **PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)    
 
@@ -131,22 +108,5 @@ If you encounter any errors or require technical support, please contact us thro
     -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
     -   [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)  
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
-
-
----
-
-
-## 📦 SAGE Edu Installation
-
-To install SAGE Edu, simply download the installation script and run it on your server:
-
-👉 [Download Installation Script](https://raw.githubusercontent.com/zacariasjuliano/sage-edu/refs/heads/main/scripts/sage_edu-install.sh)
-
-Then, make the script executable and run:
-
-```bash
-chmod +x sage_edu-install.sh
-./sage_edu-install.sh
-```
 
 

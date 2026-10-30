@@ -1,7 +1,7 @@
 {
   "name": "sage-edu-docs",
-  "version": "1.0.0",
-  "description": "**Module:** AMS, SMS & EIS    **Version:** 1.4.x   **Author:** Zacarias Juliano Capingala  *(FPC)*",
+  "version": "2.0.0",
+  "description": "**Module:** AMS, SMS & EIS    **Version:** 2.0.x   **Author:** Zacarias Juliano Capingala  *(FPC)*",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zacariasjuliano/sage-edu-docs.git"
+    "url": "git+https://github.com/comunidade-do-saber/sage-edu-docs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/zacariasjuliano/sage-edu-docs/issues"
+    "url": "https://github.com/comunidade-do-saber/sage-edu-docs/issues"
   },
-  "homepage": "https://github.com/zacariasjuliano/sage-edu-docs#readme",
+  "homepage": "https://github.com/comunidade-do-saber/sage-edu-docs#readme",
   "devDependencies": {
     "wrangler": "^4.120.1"
   }

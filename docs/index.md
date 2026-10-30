@@ -20,8 +20,8 @@ A free and modular platform for academic and school administration.
 
 ---
 
-* Organization: Família Pequenino Capingala - FPC
+* **Module:** Academic Management System
 
-* Author: Zacarias J. Capingala
+* **Author:** Zacarias Juliano Capingala - *Família Pequenino Capingala*"
 
-* Start: Novembro/2025
+* **Start:** Novembro/2025
