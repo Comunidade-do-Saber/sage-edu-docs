@@ -18,7 +18,7 @@ Approximately two months before the release of the stable version, new features 
 About a month before release, the code freeze period enters, in which only critical fixes are allowed. At this stage, the release candidate (RC) is generated.
 
 * 3. Update of Environments and Communication to Teams
-With the RC available, the [demo community server](https://sage.comunidadedosaber.ao) is updated, allowing users and partners to validate the new version. Documentation, support and integration teams are also notified to begin their adaptation processes.
+With the RC available, the [demo community server](https://app.sage-edu.comunidadedosaber.ao) is updated, allowing users and partners to validate the new version. Documentation, support and integration teams are also notified to begin their adaptation processes.
 
 * 4. Stable Version Release
 After validation, final tests and necessary adjustments, the stable version is officially available.
@@ -26,20 +26,18 @@ After validation, final tests and necessary adjustments, the stable version is o
 
 ### 📦 Stable Version
 
-The current stable version of **SAGE Education** is 1.4.0, developed on the basis of Trytond 7.0.
+The current stable version of **SAGE Education** is 2.0.0, developed on the basis of Trytond 8.0.
 
 The expected dates for the next versions will be announced according to the community's progress and may change.
 
 
-| **Date**    | **Version**  | **Tryton Verson** |
-|-------------|--------------|-------------------|
-| 28-11-2025  | 1.0.0        | 6.8.14            |
-| 12-01-2026  | 1.1.0        | 6.8.14            |
-| 12-02-2026  | 1.2.0        | 7.0.0             |
-| 12-03-2026  | 1.3.0        | 7.0.0             |
-| 12-04-2026  | 1.4.0        | 7.0.0             |
-| 12-05-2026  | 1.?.0        | 7.0.0             |
-| 12-06-2026  | 1.?.0        | 7.0.0             |
-| 12-07-2026  | 1.?.0        | 7.0.0             |
-| 12-08-2026  | 1.?.0        | 7.0.0             |
-
+| **Date**    | **SAGE Edu Version** | **Tryton Verson** |
+|-------------|----------------------|-------------------|
+| 28-11-2025  | 1.0.0                | 6.8.14            |
+| 12-01-2026  | 1.1.0                | 6.8.14            |
+| 12-02-2026  | 1.2.0                | 7.0.0             |
+| 12-03-2026  | 1.3.0                | 7.0.0             |
+| 12-04-2026  | 1.4.0                | 7.0.0             |
+| 12-11-2026  | 2.0.0                | 8.0.0             |
+| 12-01-2027  | 2.x.y                | 8.0.0             |
+| 12-04-2027  | 2.x.y                | 8.0.0             |

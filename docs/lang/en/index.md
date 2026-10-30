@@ -32,8 +32,5 @@ This creates a virtuous cycle: the institution that adopts SAGE Education to man
 
 ---
 
-* **Organization:** Família PC   
-* **Author:** Zacarias J. Capingala 
-* **Project:** SAGE Edu 
-* **Version:** 1.4  
-* **Update:** April/2026
+* **Version:** 2.0.x  
+* **Update:** October/2026

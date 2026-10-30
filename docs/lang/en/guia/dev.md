@@ -89,7 +89,7 @@ pip install psycopg2-binary
 
 pip install pycountry
 
-pip install trytond~=7.0.0
+pip install trytond~=8.0.0
 ```
 
 
@@ -125,13 +125,12 @@ trytond -c trytond.conf
 After the Tryton environment is configured, install the official SAGE Edu modules directly from GitHub:
 
 ```bash
-git clone https://github.com/zacariasjuliano/akademy-party
-git clone https://github.com/zacariasjuliano/akademy-company
-git clone https://github.com/zacariasjuliano/akademy-classe
-git clone https://github.com/zacariasjuliano/akademy-matriculation
-git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
-git clone https://github.com/zacariasjuliano/akademy-dashboard
-git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
+git clone https://github.com/comunidade-do-saber/akademy-party
+git clone https://github.com/comunidade-do-saber/akademy-company
+git clone https://github.com/comunidade-do-saber/akademy-classe
+git clone https://github.com/comunidade-do-saber/akademy-classe-evaluation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation_confirmation
 ```
 
 💡 Note: After installing new modules, it is recommended to restart the Tryton server and run trytond-admin again to synchronize the tables.

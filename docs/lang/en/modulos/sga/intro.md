@@ -45,10 +45,6 @@ This section presents the main processes and their respective administrative and
 
 The Academic Management System is composed of the following sub-modules:
 
-* **Dashboard Module**
-
-The control panel (dashboard) is a complementary module responsible for centralizing all modules, offering a simple and practical menu for all functionalities and integrating with other SAGE Edu resources.
-
 * **Entities Module**
 
 Its main function is to manage the individual and corporate entities of the educational institution, keeping the information organized and available.

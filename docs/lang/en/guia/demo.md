@@ -15,10 +15,8 @@ We host a public demo server where you can try out SAGE Education with different
 
   
 **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
-**Docs:** [docs.comunidadedosaber.ao](https://docs.comunidadedosaber.ao)  
-**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
-**PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
+**App:** [app.sage-edu.comunidadedosaber.ao](https://aap.sage-edu.comunidadedosaber.ao)  
+**Docs:** [docs.sage-edu.comunidadedosaber.ao](https://docs.sage-edu.comunidadedosaber.ao)
 
 #### 💬 Technical Support
 
