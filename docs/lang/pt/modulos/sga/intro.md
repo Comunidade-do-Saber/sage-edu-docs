@@ -73,10 +73,10 @@ Esta componente disponibiliza ***quatro perfis de utilizadores***, que podem ser
 
 | **Perfil**    |**Usuários**    |
 |---------------|----------------|
-| Discente      | student        |
-| Docente       | teacher        |
-| Secretaria    | secretary      |
-| Direção       | direction      |
+| Discente      | discente       |
+| Docente       | docente        |
+| Secretaria    | secretaria     |
+| Direção       | direcao        |
 | Administrador | admin_pt       |
 
 

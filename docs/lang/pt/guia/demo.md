@@ -6,18 +6,16 @@ Hospedamos um servidor público de demonstração, onde você pode experimentar 
 
 | **Perfil**    |**Usuários**    |
 |---------------|----------------|
-| Discente      | student        |
-| Docente       | teacher        |
-| Secretaria    | secretary      |
-| Direção       | direction      |
+| Discente      | discente       |
+| Docente       | docente        |
+| Secretaria    | secretaria     |
+| Direção       | direcao        |
 | Administrador | admin_pt       |
 
 
 **WebSite:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
-**Docs:** [docs.comunidadedosaber.ao](https://docs.comunidadedosaber.ao)  
-**Equipe:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
-**PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
+**App:** [app.sage-edu.comunidadedosaber.ao](http://app.sage-edu.comunidadedosaber.ao)  
+**Docs:** [docs.sage-edu.comunidadedosaber.ao](https://docs.sage-edu.comunidadedosaber.ao)  
 
 
 ##### 💬 Suporte Técnico
@@ -25,8 +23,6 @@ Hospedamos um servidor público de demonstração, onde você pode experimentar 
 Caso encontre erros ou deseje obter suporte técnico, entre em contato pelos canais abaixo:
 
 - 📧 **E-mail:** 
+    -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
     -   [comunidadedosaber@famaliapc.com](mailto:comunidadedosaber@famaliapc.com)
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
-
----
-

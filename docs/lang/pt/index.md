@@ -28,12 +28,7 @@ Quando uma instituição adota o SAGE Education, os seus dados permanecem totalm
 
 Por ser de código aberto, a plataforma pode ser utilizada em cursos de programação e engenharia de software como um projeto de aprendizagem do mundo real. Os alunos não trabalham com exemplos artificiais, trabalham num sistema de produção, com utilizadores reais, desafios reais e impacto real.
 
-Isto cria um ciclo virtuoso: a instituição que adota o SAGE Education para gerir os seus processos pode, simultaneamente, utilizá-lo para formar a próxima geração de programadores. E estes desenvolvedores podem, no futuro, contribuir para o próprio projeto, tornando-o melhor para todos.
-
 ---
 
-* **Organização:** Família PC   
-* **Criador:** Zacarias J. Capingala 
-* **Projecto:** SAGE Edu 
-* **Versão:** 1.7  
-* **Atualização:** July/2026
+* **Versão:** 2.0.x  
+* **Atualização:** Novembro/2026
