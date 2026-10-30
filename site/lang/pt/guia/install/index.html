@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/lang/pt/guia/install/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.sage-edu.comunidadedosaber.ao/lang/pt/guia/install/" />
       <link rel="shortcut icon" href="../../../../img/favicon.ico" />
     <title>Instalação - SAGE Edu – Documentation</title>
     <link rel="stylesheet" href="../../../../css/theme.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "Instala\u00e7\u00e3o";
         var mkdocs_page_input_path = "lang/pt/guia/install.md";
-        var mkdocs_page_url = "/sage-edu-docs/lang/pt/guia/install/";
+        var mkdocs_page_url = "/lang/pt/guia/install/";
       </script>
     
     <!--[if lt IE 9]>
@@ -147,7 +147,9 @@
                 </li>
                 <li class="toctree-l3 current"><a class="reference internal current" href="#">Instalação</a>
     <ul class="current">
-    <li class="toctree-l4"><a class="reference internal" href="#instalacao-do-sage-edu">📦 Instalação do SAGE Edu</a>
+    <li class="toctree-l4"><a class="reference internal" href="#quick-start-with-docker-recommended">🐳 Quick Start with Docker (Recommended)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#instalacao-via-pip-manual">🔧 Instalação via PIP (Manual)</a>
     </li>
     </ul>
                 </li>
@@ -215,47 +217,58 @@
             <div class="section" itemprop="articleBody">
               
                 <h3 id="instalacao">📋 Instalação</h3>
-<p>Antes de iniciar, certifique-se de ter um dos seguintes componentes instalados na versão 7.0.0, para o acesso ao ambiente cliente:</p>
-<ul>
-<li><a href="https://www.tryton.org/">Tryton Desktop Client</a></li>
-<li><a href="https://www.npmjs.com/package/tryton-sao">SAO Web Client</a></li>
-</ul>
-<h4 id="instalacao-do-sage-edu">📦 Instalação do SAGE Edu</h4>
-<p>Para fazer a instalação do SAGE Edu, basta baixar o script de instalação e executá-lo no seu servidor:</p>
-<p>👉 <a href="https://github.com/zacariasjuliano/sage-edu/blob/main/scripts/sage_edu-install.sh">Baixar Script de Instalação</a></p>
-<p>Depois, torne o script executável e rode:</p>
-<pre><code class="language-bash">chmod +x sage_edu-install.sh
-./sage_edu-install.sh
+<p>Para fazer a instalação do SAGE Edu, você pode faze-lo pelo pip de instalação ou usar a nossa imagem docker.</p>
+<h5 id="quick-start-with-docker-recommended">🐳 Quick Start with Docker (Recommended)</h5>
+<p>A maneira mais rápida de testar o SAGE Edu v2.0 é usando nossa imagem Docker oficial:</p>
+<pre><code class="language-bash">git clone https://github.com/comunidade-do-saber/sage-edu.git
+cd sage-edu/docker
+docker compose up -d
 </code></pre>
+<p>Após a execução, o servidor estará disponível em <code>http://localhost:8000</code>.</p>
 <h5 id="instalacao-via-pip-manual">🔧 Instalação via PIP (Manual)</h5>
-<p>Também é possível instalar o SAGE Edu manualmente utilizando o pip.
+<p>Também é possível instalar o SAGE Edu manualmente utilizando o <code>pip</code>.
 Para isso, será necessário:</p>
 <ul>
-<li>Ter o PostgreSQL instalado e configurado</li>
-</ul>
-<p>Incluindo criação de usuário e permissões.</p>
+<li>
+<p><strong>PostgreSQL</strong> instalado e configurado:</p>
 <ul>
-<li>
-<p>Criar a base de dados</p>
+<li>Criar um usuário e definir permissões.</li>
+<li>Criar a base de dados (ex: <code>sage_education</code>).</li>
+</ul>
 </li>
 <li>
-<p>Instalar os módulos via PIP</p>
+<p><strong>Cliente Tryton</strong> (Desktop ou Web) instalado para acessar o sistema:</p>
+<ul>
+<li><a href="https://www.tryton.org/">Tryton Desktop Client</a></li>
+<li><a href="https://www.npmjs.com/package/tryton-sao">Tryton Web Client</a></li>
+</ul>
 </li>
 </ul>
-<pre><code class="language-bash">pip install akademy-party
-pip install akademy-company
-pip install akademy-classe
-pip install akademy-classe-evaluation
-pip install akademy-matriculation
-pip install akademy-matriculation-confirmation
-pip install akademy-dashboard
+<p><strong>1. Instalar os módulos via PIP</strong></p>
+<pre><code class="language-bash">pip install trytond==8.0
+pip install akademy-party==8.0.0
+pip install akademy-company==8.0.0
+pip install akademy-classe==8.0.0
+pip install akademy-classe-evaluation==8.0.0
+pip install akademy-matriculation==8.0.0
+pip install akademy-matriculation-confirmation==8.0.0
 </code></pre>
-<ul>
-<li>Criar o arquivo de configuração do Tryton (trytond.conf)</li>
-</ul>
-<pre><code class="language-bash">[database]
+<p><strong>2. Criar o arquivo de configuração do Tryton (<code>trytond.conf</code>)</strong></p>
+<p>Crie um arquivo com o seguinte conteúdo, ajustando <code>usuario</code>, <code>senha</code> e <code>banco_de_dados</code> conforme a sua configuração local:</p>
+<pre><code class="language-ini">[database]
 uri = postgresql://usuario:senha@localhost:5432/banco_de_dados
+
+[web]
+listen = 0.0.0.0:8000
 </code></pre>
+<p><strong>3. Inicializar o banco de dados</strong></p>
+<p>Execute o comando abaixo para criar todas as tabelas e carregar os dados iniciais dos módulos:</p>
+<pre><code class="language-bash">trytond-admin -c /caminho/para/trytond.conf -d nome_do_banco --all
+</code></pre>
+<p><strong>4. Iniciar o servidor</strong></p>
+<pre><code class="language-bash">trytond -c /caminho/para/trytond.conf
+</code></pre>
+<p>Agora você pode acessar o SAGE Edu através do seu cliente Tryton (Desktop ou Web) utilizando o endereço do servidor.</p>
               
             </div>
           </div><footer>

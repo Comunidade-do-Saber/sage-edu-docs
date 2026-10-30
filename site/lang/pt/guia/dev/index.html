@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/lang/pt/guia/dev/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.sage-edu.comunidadedosaber.ao/lang/pt/guia/dev/" />
       <link rel="shortcut icon" href="../../../../img/favicon.ico" />
     <title>Ambiente de desenvolvimento - SAGE Edu – Documentation</title>
     <link rel="stylesheet" href="../../../../css/theme.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "Ambiente de desenvolvimento";
         var mkdocs_page_input_path = "lang/pt/guia/dev.md";
-        var mkdocs_page_url = "/sage-edu-docs/lang/pt/guia/dev/";
+        var mkdocs_page_url = "/lang/pt/guia/dev/";
       </script>
     
     <!--[if lt IE 9]>
@@ -278,7 +278,7 @@ PARA:
 
 pip install pycountry
 
-pip install trytond~=7.0.0
+pip install trytond~=8.0.0
 </code></pre>
 <p>📝 <strong>Criar o Arquivo trytond.conf</strong></p>
 <p>Crie o ficheiro de configuração do servidor Tryton:</p>
@@ -298,13 +298,12 @@ uri = postgresql://sage_edu:sage_edu@localhost:5432/sage_edu_db
 </code></pre>
 <h4 id="instalacao-dos-modulos-sage-edu">📦 Instalação dos Módulos SAGE Edu</h4>
 <p>Após o ambiente Tryton estar configurado, instale os módulos oficiais do SAGE Edu diretamente do GitHub:</p>
-<pre><code class="language-bash">git clone https://github.com/zacariasjuliano/akademy-party
-git clone https://github.com/zacariasjuliano/akademy-company
-git clone https://github.com/zacariasjuliano/akademy-classe
-git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
-git clone https://github.com/zacariasjuliano/akademy-matriculation
-git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
-git clone https://github.com/zacariasjuliano/akademy-dashboard
+<pre><code class="language-bash">git clone https://github.com/comunidade-do-saber/akademy-party
+git clone https://github.com/comunidade-do-saber/akademy-company
+git clone https://github.com/comunidade-do-saber/akademy-classe
+git clone https://github.com/comunidade-do-saber/akademy-classe-evaluation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation_confirmation
 </code></pre>
 <p>💡 Nota: Após instalar novos módulos, é recomendado reiniciar o servidor Tryton e executar novamente o trytond-admin para sincronização das tabelas.</p>
               

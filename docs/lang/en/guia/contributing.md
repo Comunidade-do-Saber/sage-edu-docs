@@ -121,7 +121,7 @@ If you find any bugs, unexpected behavior, or failures, please report them throu
 
 Security vulnerabilities are handled separately from regular bug
 reports — please **do not** open a public issue. See
-[SECURITY.md](./SECURITY.md) for how to report a vulnerability
+[SECURITY.md](https://github.com/comunidade-do-saber/sage-edu/blob/main/SECURITY.md) for how to report a vulnerability
 privately.
 
 ---
@@ -129,7 +129,7 @@ privately.
 ### Contributions Agreement
 
 *By contributing to this repository, I acknowledge that I have read and
-agree to the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) and the Engineering Philosophy described in
+agree to the [CODE_OF_CONDUCT.md](https://github.com/comunidade-do-saber/sage-edu/blob/main/CODE_OF_CONDUCT.md) and the Engineering Philosophy described in
 this document. I commit to writing code that I fully understand, taking
 full ownership of my contributions, and using AI strictly as a learning
 aid rather than a replacement for my own engineering skills.*

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/lang/pt/guia/contributing/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.sage-edu.comunidadedosaber.ao/lang/pt/guia/contributing/" />
       <link rel="shortcut icon" href="../../../../img/favicon.ico" />
     <title>Contribuição - SAGE Edu – Documentation</title>
     <link rel="stylesheet" href="../../../../css/theme.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "Contribui\u00e7\u00e3o";
         var mkdocs_page_input_path = "lang/pt/guia/contributing.md";
-        var mkdocs_page_url = "/sage-edu-docs/lang/pt/guia/contributing/";
+        var mkdocs_page_url = "/lang/pt/guia/contributing/";
       </script>
     
     <!--[if lt IE 9]>
@@ -184,12 +184,20 @@
     <li class="toctree-l3"><a class="reference internal" href="#traducao-do-software">🌍 Tradução do Software</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#escrita-e-melhoria-da-documentacao">📝 Escrita e Melhoria da Documentação</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#configuracao-de-desenvolvimento">🧑‍💻 Configuração de Desenvolvimento</a>
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#normas-de-codificacao">🧩 Normas de Codificação</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#filosofia-de-engenharia-compreensao-sobre-automacao">🤖 Filosofia de Engenharia: Compreensão sobre Automação</a>
     </li>
         </ul>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#reportar-bugs">🐞 Reportar Bugs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#reportar-uma-vulnerabilidade-de-seguranca">🔒 Reportar uma Vulnerabilidade de Segurança</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#acordo-de-contribuicao">📄 Acordo de Contribuição</a>
     </li>
     </ul>
                 </li>
@@ -222,25 +230,30 @@
             <div class="section" itemprop="articleBody">
               
                 <h2 id="contibuicoes">📘 Contibuições</h2>
-<p>O <strong>SAGE Education</strong> é um projeto <strong><em>livre e gratuito</em></strong> para <strong><em>educadores, instituições de ensino e governos</em></strong>. Toda contribuição é bem-vinda, e há várias formas de participar — muitas delas não exigem conhecimentos técnicos de programação.</p>
+<p>O <strong>SAGE Education</strong> é um projeto <strong><em>livre e gratuito</em></strong> para <strong><em>educadores, instituições de ensino e governos</em></strong>. Toda contribuição é bem-vinda, e há várias formas de participar, muitas delas não exigem conhecimentos técnicos de programação.</p>
+<p>Antes de contribuir, por favor leia o nosso <a href="https://github.com/comunidade-do-saber/sage-edu/blob/main/CODE_OF_CONDUCT.md">Código de Conduta</a>.</p>
+<hr />
 <h3 id="traducao-do-software">🌍 Tradução do Software</h3>
-<p>A atualmente o <strong>SAGE Education</strong> está disponível apenas em <strong>português</strong> e <strong>inglês</strong>. </p>
-<p>A expansão para novos idiomas é essencial para ampliar o impacto do projeto e garantir que possa ser utilizado na língua nativa de cada utilizador.</p>
+<p>A atualmente o <strong>SAGE Education</strong> está disponível apenas em <strong>português</strong> e <strong>inglês</strong>. A expansão para novos idiomas é essencial para ampliar o impacto do projeto e garantir que possa ser utilizado na língua nativa de cada utilizador.</p>
 <p>Você pode contribuir de duas formas:</p>
 <ul>
 <li><strong>Melhorando as traduções existentes</strong></li>
 <li><strong>Criando uma nova tradução</strong> para o seu idioma</li>
 </ul>
 <p>Traduzir o <strong>SAGE Edu</strong> é simples e não requer conhecimentos avançados. Basta copiar um arquivo <code>.po</code> e ajustar o seu conteúdo conforme o idioma desejado, para o caso de novas traduções.</p>
+<hr />
 <h3 id="escrita-e-melhoria-da-documentacao">📝 Escrita e Melhoria da Documentação</h3>
 <p>Manter uma documentação completa e atualizada é um desafio contínuo, e toda ajuda é valiosa.
-A documentação oficial do <strong>SAGE Edu</strong> está disponível no <a href="https://github.com/zacariasjuliano/sage-edu-docs">GitHub</a>, onde pode:</p>
+A documentação oficial do <strong>SAGE Edu</strong> está disponível no <a href="https://github.com/comunidade-do-saber/sage-edu-docs">GitHub</a>, onde pode:</p>
 <ul>
 <li>Corrigir erros</li>
 <li>Melhorar explicações</li>
 <li>Criar novos tópicos</li>
 <li>Atualizar informações desatualizadas</li>
 </ul>
+<hr />
+<h3 id="configuracao-de-desenvolvimento">🧑‍💻 Configuração de Desenvolvimento</h3>
+<p>Consulte a <a href="docs.sage-edu.comunidadedosaber.ao/lang/pt/guia/dev">documentação oficial</a> para instruções detalhadas de configuração do ambiente.</p>
 <h4 id="normas-de-codificacao">🧩 Normas de Codificação</h4>
 <p>O SAGE Edu segue:</p>
 <ul>
@@ -251,21 +264,45 @@ A documentação oficial do <strong>SAGE Edu</strong> está disponível no <a hr
 <p>As boas práticas do <a href="https://www.python.org/dev/peps/pep-0008/">Python</a> (PEP 8)</p>
 </li>
 <li>
-<p>O projeto é desenvolvido em Python, e o <a href="https://github.com/zacariasjuliano/sage-edu">código-fonte</a> está disponível no GitHub:</p>
+<p>O projeto é desenvolvido em Python, para obter uma cópia do projeto:</p>
 </li>
 </ul>
-<p>Para obter uma cópia do projeto:</p>
-<pre><code class="language-bash">git clone https://github.com/comunidadedosaber/akademy-party
-git clone https://github.com/comunidadedosaber/akademy-company
-git clone https://github.com/comunidadedosaber/akademy-classe
-git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
-git clone https://github.com/zacariasjuliano/akademy-matriculation
-git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
-git clone https://github.com/zacariasjuliano/akademy-dashboard
+<pre><code class="language-bash">git clone https://github.com/comunidade-do-saber/akademy-party
+git clone https://github.com/comunidade-do-saber/akademy-company
+git clone https://github.com/comunidade-do-saber/akademy-classe
+git clone https://github.com/comunidade-do-saber/akademy-classe-evaluation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation_confirmation
 </code></pre>
+<h4 id="filosofia-de-engenharia-compreensao-sobre-automacao">🤖 Filosofia de Engenharia: Compreensão sobre Automação</h4>
+<p>O nosso objetivo principal é construir uma base de código robusta e mantível, garantindo que cada programador compreende profundamente o software que está a construir. Priorizamos a compreensão humana, a prática deliberada e a verdadeira propriedade do código em detrimento da velocidade de geração automatizada. <strong>Escrevemos código para o entender, não apenas para o entregar.</strong></p>
+<p><strong>A Regra "Sem Agentes Autónomos"</strong>
+- <strong>Proibida a geração de código por IA:</strong> o uso de agentes de codificação autónomos (ex: Cursor, GitHub Copilot, Devin) para escrever, autocompletar ou injetar diretamente código na base é estritamente proibido.
+- <strong>Proibido copiar e colar cegamente:</strong> os programadores não podem copiar código de uma saída de IA e colá-lo diretamente no seu IDE.</p>
+<p><strong>Uso Aceitável de IA (como tutor, não como digitador)</strong>
+- <strong>Compreensão conceptual:</strong> os programadores podem usar IA para explicar conceitos complexos, depurar erros lógicos ou sugerir padrões arquiteturais.
+- <strong>A obrigação de reescrever:</strong> se um programador usar IA para entender uma solução, deve fechar o chat, internalizar a lógica e <strong>digitar/reescrever o código manualmente a partir da sua própria compreensão</strong>.
+- <strong>Verificação:</strong> se um programador não conseguir explicar <em>porque</em> uma peça de código funciona, linha por linha, não a compreende o suficiente para a comprometer.</p>
+<p><strong>Propriedade e Responsabilidade do Código</strong>
+- <strong>Propriedade total:</strong> o programador que compromete o código é 100% responsável por ele. "A IA escreveu" ou "Encontrei na internet" nunca é uma justificação aceitável para um bug ou má arquitetura.
+- <strong>Explicabilidade:</strong> todos os programadores devem ser capazes de justificar as suas escolhas arquiteturais, nomes de variáveis e fluxos lógicos.</p>
+<p><strong>Padrões de Revisão de Código</strong>
+- <strong>O teste "explica isto":</strong> durante uma revisão de pull request, os revisores podem pedir ao autor que explique blocos específicos de código. Se o autor não conseguir explicar claramente a lógica, o PR será rejeitado, independentemente de o código funcionar tecnicamente.
+- <strong>Foco na intenção:</strong> os revisores devem focar-se em se o código está alinhado com o modelo mental da equipa e com a arquitetura do projeto, em vez de apenas na sintaxe.</p>
+<p><strong>Aprendizagem Contínua e Maestria</strong>
+- <strong>Abrace a dificuldade:</strong> depurar e descobrir lógica complexa manualmente é uma funcionalidade, não um bug. É assim que os programadores dominam a base de código.
+- <strong>Partilha de conhecimento:</strong> quando um programador resolve um problema difícil (com ou sem assistência de IA), deve documentar o <em>conceito</em> e partilhar a <em>compreensão</em> com a equipa, garantindo que toda a equipa evolui.</p>
+<p>Seja consciente e respeitoso com os outros. Leia mais sobre a nossa filosofia em <a href="https://dontpastetheai.com">dontpastetheai.com</a> (em inglês).</p>
+<hr />
 <h3 id="reportar-bugs">🐞 Reportar Bugs</h3>
 <p>Como em qualquer software, erros podem ocorrer. Estamos sempre a trabalhar para os identificar e corrigir, mas a comunidade desempenha um papel fundamental neste processo.</p>
 <p>Se encontrar algum bug, comportamento inesperado ou falha, pedimos que comunique através dos canais oficiais do projeto. A sua ajuda contribui diretamente a melhorar a qualidade e estabilidade do sistema.</p>
+<hr />
+<h3 id="reportar-uma-vulnerabilidade-de-seguranca">🔒 Reportar uma Vulnerabilidade de Segurança</h3>
+<p>Vulnerabilidades de segurança são tratadas separadamente de relatórios de bugs regulares — <strong>não</strong> abra um issue público. Consulte <a href="https://github.com/comunidade-do-saber/sage-edu/blob/main/SECURITY.md">SECURITY.md</a> para instruções sobre como reportar uma vulnerabilidade em privado.</p>
+<hr />
+<h3 id="acordo-de-contribuicao">📄 Acordo de Contribuição</h3>
+<p><em>Ao contribuir para este repositório, reconheço que li e concordo com o <a href="https://github.com/comunidade-do-saber/sage-edu/blob/main/CODE_OF_CONDUCT.md">CÓDIGO DE CONDUTA</a> e com a Filosofia de Engenharia descrita neste documento. Comprometo-me a escrever código que compreendo completamente, assumindo total responsabilidade pelas minhas contribuições, e a usar IA estritamente como uma ferramenta de aprendizagem e não como um substituto para as minhas próprias competências de engenharia.</em></p>
               
             </div>
           </div><footer>
